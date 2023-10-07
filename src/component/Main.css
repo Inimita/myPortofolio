@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    
+}
+
+main{
+    background-color: #e5e6ea;
+}
+
+.containerMain{
+    padding: 60px 100px 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    column-gap: 170px;
+    margin-bottom: 77px;
+   
+    
+}
+
+.main h1{
+    color: #3c6bda;
+    text-align: left;
+    font-size: 50px;
+}
+
+.main h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main p{
+    font-size: 17px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #3c6bda;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 14px;
+    
+}
+
+button:hover{
+    color: whitesmoke;
+    background-color: #c3d5fd;
+}
+
+img{
+    width: 490px;
+    margin-top: -30px;
+}
+
+.hero{
+    background-color: #b0c2e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
+
+.heroBox{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.heroBox h2{
+    font-size: 38px;
+    color: #333c42;
+}
+
+.heroBox p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #253137;
+}
+
+.heroContainer{
+    margin-right: 50px;
+    margin-top: 32px;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 80px;
+}
+
+.containerBox{
+    margin-bottom: 80px;
+}
+
+.containerBox ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    
+}
+
+.containerBox ul li {
+    list-style: none;
+}
+
+.containerBox li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.containerBox p{
+    font-weight: 500;
+}
+
+.containerBox img{
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boxContact{
+    margin-top: 120px;
+}
+
+.boxContact p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.contact ul li{
+    list-style: none;
+    margin-right: -150px;
+    margin-left: -150px;
+}
+
+.contact img{
+  width: 50px;
+}
